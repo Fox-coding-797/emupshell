@@ -1,0 +1,35 @@
+body {
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#main {
+    padding: 10px;
+}
+
+#powershell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+#output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
